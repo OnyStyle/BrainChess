@@ -1,0 +1,8 @@
+include ':app', ':app-rxjava', ':app-rxkotlin', ':app-kotlin', ':library', ':app-java', ':appChess'
+rootProject.name='BrainChess'
+project(':app-rxjava').projectDir = new File('app/libs/neurosky-android-sdk-master/app-rxjava')
+project(':app-rxkotlin').projectDir = new File('app/libs/neurosky-android-sdk-master/app-rxkotlin')
+project(':app-kotlin').projectDir = new File('app/libs/neurosky-android-sdk-master/app-kotlin')
+project(':library').projectDir = new File('app/libs/neurosky-android-sdk-master/library')
+project(':app-java').projectDir = new File('app/libs/neurosky-android-sdk-master/app-java')
+project(':appChess').projectDir = new File('app/libs/material-chess-android-master/app')
